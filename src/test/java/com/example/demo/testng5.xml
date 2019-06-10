@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test_groups">
+    <test name="test_setup">
+        <classes>
+            <class name="com.example.demo.SetUpTest" >
+                <methods>
+                    <include name="testDepend" />
+                    <include name="test10" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

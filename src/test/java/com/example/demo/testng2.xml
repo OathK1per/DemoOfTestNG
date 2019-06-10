@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test_groups">
+    <test name="test_setup">
+        <parameter name="value" value="10" />
+        <parameter name="isEven" value="true" />
+        <classes>
+            <class name="com.example.demo.SetUpTest" >
+                <methods>
+                    <include name="test07" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
